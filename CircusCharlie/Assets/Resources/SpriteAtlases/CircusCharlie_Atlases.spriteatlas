@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CircusCharlie_Atlases
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: c0ca6020e533fc145bb7671cf416037c, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -744464571, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 534750538, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -207617042, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -692677185, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1377457496, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -676470952, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 238653654, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1631678321, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 450467911, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1154475587, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1796246151, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -629768349, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1872442732, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1033960466, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1811872344, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -685763088, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1176689597, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1334770988, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1498278718, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 55330097, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 2136001968, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1647329531, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1566084299, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 204371703, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1267332629, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 592066979, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 870650567, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1109847679, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1381984336, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1223550768, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 29082467, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1971351011, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1782722434, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 406383891, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 265126417, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 15079937, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1698008700, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 474741979, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1033442480, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -346312251, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1610375013, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -800802748, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 960226013, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 373489129, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1662583117, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1531626266, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -761170833, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -730829645, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1137764131, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1825679777, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 995892062, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1084560192, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1161556003, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1756672444, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1076211214, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 838917981, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 43913051, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1562044107, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 923254469, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 402263606, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 2006328889, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1530460865, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 874102136, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 249473614, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -177941318, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1780680160, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -2074920999, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1433460665, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -1061373508, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1797282811, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 94126564, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 110789755, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -34419411, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 1300955112, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 21300000, guid: 5bd125982ec8eb24cb826bc9398d98e8, type: 3}
+  - {fileID: 21300000, guid: ae47a6c87177e354db07d6607125dab2, type: 3}
+  - {fileID: 21300000, guid: 64e0fab98833a0449a10853a4d1ebb1d, type: 3}
+  - {fileID: 21300000, guid: c10f7f9a61cd956498ea01262e15abc8, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - CircusCharlie_Sprites_21
+  - CircusCharlie_Sprites_22
+  - CircusCharlie_Sprites_23
+  - CircusCharlie_Sprites_33
+  - CircusCharlie_Sprites_24
+  - CircusCharlie_Sprites_32
+  - CircusCharlie_Sprites_25
+  - CircusCharlie_Sprites_31
+  - CircusCharlie_Sprites_55
+  - CircusCharlie_Sprites_26
+  - CircusCharlie_Sprites_30
+  - CircusCharlie_Sprites_54
+  - CircusCharlie_Sprites_27
+  - CircusCharlie_Sprites_37
+  - CircusCharlie_Sprites_57
+  - CircusCharlie_Sprites_28
+  - CircusCharlie_Sprites_36
+  - CircusCharlie_Sprites_56
+  - CircusCharlie_Sprites_29
+  - CircusCharlie_Sprites_35
+  - CircusCharlie_Sprites_51
+  - CircusCharlie_Sprites_2
+  - CircusCharlie_Sprites_34
+  - CircusCharlie_Sprites_50
+  - CircusCharlie_Sprites_3
+  - CircusCharlie_Sprites_53
+  - CircusCharlie_Sprites_0
+  - CircusCharlie_Sprites_52
+  - CircusCharlie_Sprites_1
+  - CircusCharlie_Sprites_39
+  - CircusCharlie_Sprites_6
+  - CircusCharlie_Sprites_38
+  - CircusCharlie_Sprites_7
+  - CircusCharlie_Sprites_4
+  - CircusCharlie_Sprites_5
+  - CircusCharlie_Sprites_11
+  - CircusCharlie_Sprites_59
+  - CircusCharlie_Sprites_10
+  - CircusCharlie_Sprites_58
+  - CircusCharlie_Sprites_13
+  - CircusCharlie_Sprites_8
+  - CircusCharlie_Sprites_12
+  - CircusCharlie_Sprites_9
+  - CircusCharlie_Sprites_17
+  - CircusCharlie_Sprites_42
+  - CircusCharlie_Sprites_43
+  - CircusCharlie_Sprites_40
+  - CircusCharlie_Sprites_41
+  - CircusCharlie_Sprites_46
+  - CircusCharlie_Sprites_47
+  - CircusCharlie_Sprites_44
+  - CircusCharlie_Sprites_45
+  - CircusCharlie_Sprites_48
+  - CircusCharlie_Sprites_49
+  - CircusCharlie_Sprites_68
+  - CircusCharlie_Sprites_69
+  - CircusCharlie_Sprites_64
+  - CircusCharlie_Sprites_65
+  - CircusCharlie_Sprites_79
+  - CircusCharlie_Sprites_66
+  - CircusCharlie_Sprites_78
+  - CircusCharlie_Sprites_67
+  - CircusCharlie_Sprites_77
+  - CircusCharlie_Sprites_60
+  - CircusCharlie_Sprites_76
+  - CircusCharlie_Sprites_61
+  - CircusCharlie_Sprites_75
+  - CircusCharlie_Sprites_62
+  - CircusCharlie_Sprites_74
+  - CircusCharlie_Sprites_63
+  - CircusCharlie_Sprites_73
+  - CircusCharlie_Sprites_72
+  - CircusCharlie_Sprites_71
+  - CircusCharlie_Sprites_70
+  - CircusCharlie_meter
+  - CircusCharlie_Title
+  - CircusCharlie_Bg
+  - CircusCharlie_TitleLogo
+  m_RenderDataMap: {}
+  m_Tag: CircusCharlie_Atlases
+  m_IsVariant: 0

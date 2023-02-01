@@ -1,0 +1,1781 @@
+fileFormatVersion: 2
+guid: c0a14d117c98873439d96cd54da7fa6d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1292
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eebc370282644748a99ced584a73d80
+      internalID: 870650567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1292
+        width: 65
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68414f0bead8484b9864e1033c71e18
+      internalID: 1381984336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1292
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d302346595d5a5428e3011bf24c33c5
+      internalID: -1647329531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1292
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44f746743047a24a92c8a4767d8e14f
+      internalID: -1267332629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1292
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d8f709f55acb6499237bb80ba07c01
+      internalID: 406383891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1292
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df89ef929eef88458ba4e79501f55ab
+      internalID: 265126417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1292
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac2a6fb1dd04bd43a57c428882e0613
+      internalID: 29082467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1292
+        width: 72
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d3f61efcf3c034e90098c0d10f16f3
+      internalID: -1782722434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1184
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73d6e57ff6521945bb581fd48c721f7
+      internalID: -1610375013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1184
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84ae2dee28769645a3792fc4ab71a31
+      internalID: 960226013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1184
+        width: 65
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afd565cc30e388449460961ee578e8e
+      internalID: 474741979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1184
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffab08e4624a1bb40828bc1cc95ea0e3
+      internalID: 15079937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1184
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87b0d0a90c271e4aae99e500524569b
+      internalID: -800802748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1184
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebba218cc54c844f9c5fc7a07bb249a
+      internalID: -346312251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1184
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12388c6bc58db8449b7300ded5fcc7ce
+      internalID: 373489129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1184
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55fd2370d705b64ba3f42ccdcac9e58
+      internalID: -744464571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1184
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb4e2b3a9c9bfe47a3c0bff4c5247a7
+      internalID: 534750538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1184
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffb6b336fe700f4094c838a3f50d878
+      internalID: -207617042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1184
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3e3c341268f5d42ae0294c5c473792
+      internalID: -1377457496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1184
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e800ef8616955949b643a0a814b09e0
+      internalID: 238653654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1080
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3291b8865676b4ebad47244b47e93f
+      internalID: 1154475587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1080
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf810674f59ac8643b6fe566bd325002
+      internalID: 1872442732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1080
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd24177698886264aa8d33aa82517e24
+      internalID: -685763088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1080
+        width: 61
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eec75fcbe96d2841b10fc1b9eb6fe69
+      internalID: 1498278718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1080
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1224e5640b05e44eb738efa7088e9ce
+      internalID: -1796246151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1080
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23697197a98479948bf55cec93e49f0d
+      internalID: 1631678321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1080
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8030570071c9a424eac8e5b5160e0d19
+      internalID: -676470952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1080
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626f6267255e5ed41892e7d06901c275
+      internalID: -692677185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 996
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742da801d11fb174aad0dd521ab6c718
+      internalID: -1566084299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 996
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667a3c9f042160b4cabfbb3e3c67c98e
+      internalID: 55330097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 996
+        width: 124
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa23b3b0eb789ac48ac00e1a0e17b204
+      internalID: 1176689597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 996
+        width: 132
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24480e78312ae642af017a71061d826
+      internalID: 1033960466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 992
+        width: 132
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bfa003b848d7b4da6aee74abf53be3
+      internalID: 1971351011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 996
+        width: 124
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb623dccf422b841b89d797c8448f0a
+      internalID: -1223550768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 996
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60304c26545d364ca31c89b7074536e
+      internalID: -761170833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 996
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7455cca76a76644f818e28262b91788
+      internalID: -730829645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 920
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c901a3be7d1556745860175610237a72
+      internalID: -1662583117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 920
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1745c55b6aa31c240b2edd5d541b8052
+      internalID: -1531626266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 920
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390a3a0d6a421d449ade689fafaff65d
+      internalID: 995892062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 920
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e06476385d6d14eb19ccf5d4a7978f
+      internalID: 1084560192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 920
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e67466e9ac6ec4dbd1653792e9657a
+      internalID: 1137764131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 920
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bd2fffb2679e84a8c7e0139932f195
+      internalID: 1825679777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 920
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d295499bc539c6438d8454ae5a4745b
+      internalID: -1161556003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 920
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d6db8a484c1ce4cb02432b2e2eb042
+      internalID: 1756672444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 848
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a93941fe3a08a498b8db2be848776a
+      internalID: 204371703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 848
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610a9a0c859f79f4caac2190a0c27f4d
+      internalID: 2136001968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 848
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5c5f629ddfa1f45bd3a48129f9fbff
+      internalID: 1109847679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 848
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7006a9a23cdd21e459a2b37eae7ace04
+      internalID: 592066979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 848
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5caddd48491e51e40aedb65be908d877
+      internalID: -629768349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 848
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ac8bb4b42cf454c9b53ff9322751d0
+      internalID: 450467911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 848
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17a2937e6c76d645b19ee65d04d91dc
+      internalID: -1334770988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 848
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dde8c7cbbb0c9499fe762b5b25d7d7
+      internalID: -1811872344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 508
+        width: 96
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72d9b0440ffc6a4783e394853bca85b
+      internalID: -1033442480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 508
+        width: 96
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4a4324a56d7c94cae81ee7bf07be21
+      internalID: -1698008700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 508
+        width: 96
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b97eb854805cf478711ae229b4e777
+      internalID: 249473614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 508
+        width: 96
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbfdcc7df6e99c41a084e2af1bb0bf6
+      internalID: 1780680160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 508
+        width: 96
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9646e3e756591e444bf904afdce411db
+      internalID: 1433460665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 508
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c1502210afd8c4588396ea62e57f7b
+      internalID: 1797282811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 348
+        width: 148
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e93f4676d121b4c83953c4fe12ba76
+      internalID: 43913051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 348
+        width: 149
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c037d96e6b64244ae01f5669f96dba
+      internalID: -1562044107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 348
+        width: 154
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15efc2e2a8b9cc24fa6ad8d0201f51b2
+      internalID: 402263606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 348
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a83c3c3e0b57994e9ab890ff29c279d
+      internalID: -1530460865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 100
+        width: 188
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e5d08201cbb3a4eae5e325f4f9374a
+      internalID: 1076211214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 224
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52581bfa1a4e80489eb8a89e8e8d835
+      internalID: 838917981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 224
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927bfffc5585d574482332e0c992103a
+      internalID: 1300955112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 224
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b33932b379671b4eab24b7cfd349aaf
+      internalID: -34419411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 224
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc0417a51585aa41947715faf071348
+      internalID: 110789755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 100
+        width: 188
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61eeb0c0cd0b46c439ba88a91d5e41fe
+      internalID: 94126564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 100
+        width: 181
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cd2945056c1b24b85ef2b7415d144b
+      internalID: -1061373508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 100
+        width: 192
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08d12c0459309b4fbe7a82485a46e77
+      internalID: -2074920999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 100
+        width: 192
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e609d898e6a3ff4ca9c4d5f4b8a19cd
+      internalID: -177941318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 100
+        width: 180
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fdafedc1367804daab1ed05b4986c2
+      internalID: 874102136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 40
+        width: 192
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9a68b140b202747ac6320fea5d312c
+      internalID: 2006328889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 24
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8204cf2a7b66a46479df6ec9199c6241
+      internalID: 923254469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CircusCharlie_Sprites_28: -685763088
+      CircusCharlie_Sprites_40: -761170833
+      CircusCharlie_Sprites_48: -1161556003
+      CircusCharlie_Sprites_35: 55330097
+      CircusCharlie_Sprites_37: 1033960466
+      CircusCharlie_Sprites_53: 592066979
+      CircusCharlie_Sprites_42: -1662583117
+      CircusCharlie_Sprites_71: -34419411
+      CircusCharlie_Sprites_9: 960226013
+      CircusCharlie_Sprites_55: 450467911
+      CircusCharlie_Sprites_4: 406383891
+      CircusCharlie_Sprites_47: 1825679777
+      CircusCharlie_Sprites_0: 870650567
+      CircusCharlie_Sprites_50: 204371703
+      CircusCharlie_Sprites_8: -1610375013
+      CircusCharlie_Sprites_74: -1061373508
+      CircusCharlie_Sprites_59: -1698008700
+      CircusCharlie_Sprites_41: -730829645
+      CircusCharlie_Sprites_33: -692677185
+      CircusCharlie_Sprites_22: 534750538
+      CircusCharlie_Sprites_16: 381690254
+      CircusCharlie_Sprites_36: 1176689597
+      CircusCharlie_Sprites_70: 1300955112
+      CircusCharlie_Sprites_29: 1498278718
+      CircusCharlie_Sprites_44: 995892062
+      CircusCharlie_Sprites_3: -1267332629
+      CircusCharlie_Sprites_2: -1647329531
+      CircusCharlie_Sprites_20: 146847544
+      CircusCharlie_Sprites_57: -1811872344
+      CircusCharlie_Sprites_78: 2006328889
+      CircusCharlie_Sprites_61: 1780680160
+      CircusCharlie_Sprites_6: 29082467
+      CircusCharlie_Sprites_62: 1433460665
+      CircusCharlie_Sprites_58: -1033442480
+      CircusCharlie_Sprites_24: -1377457496
+      CircusCharlie_Sprites_18: -310723752
+      CircusCharlie_Sprites_75: -2074920999
+      CircusCharlie_Sprites_43: -1531626266
+      CircusCharlie_Sprites_51: 2136001968
+      CircusCharlie_Sprites_54: -629768349
+      CircusCharlie_Sprites_31: 1631678321
+      CircusCharlie_Sprites_13: -346312251
+      CircusCharlie_Sprites_11: 15079937
+      CircusCharlie_Sprites_72: 110789755
+      CircusCharlie_Sprites_1: 1381984336
+      CircusCharlie_Sprites_21: -744464571
+      CircusCharlie_Sprites_76: -177941318
+      CircusCharlie_Sprites_15: -30747709
+      CircusCharlie_Sprites_32: -676470952
+      CircusCharlie_Sprites_66: 402263606
+      CircusCharlie_Sprites_25: 238653654
+      CircusCharlie_Sprites_60: 249473614
+      CircusCharlie_Sprites_49: 1756672444
+      CircusCharlie_Sprites_17: 373489129
+      CircusCharlie_Sprites_19: -1015506596
+      CircusCharlie_Sprites_7: -1782722434
+      CircusCharlie_Sprites_10: 474741979
+      CircusCharlie_Sprites_65: -1562044107
+      CircusCharlie_Sprites_34: -1566084299
+      CircusCharlie_Sprites_67: -1530460865
+      CircusCharlie_Sprites_38: 1971351011
+      CircusCharlie_Sprites_64: 43913051
+      CircusCharlie_Sprites_63: 1797282811
+      CircusCharlie_Sprites_12: -800802748
+      CircusCharlie_Sprites_30: -1796246151
+      CircusCharlie_Sprites_39: -1223550768
+      CircusCharlie_Sprites_46: 1137764131
+      CircusCharlie_Sprites_52: 1109847679
+      CircusCharlie_Sprites_23: -207617042
+      CircusCharlie_Sprites_77: 874102136
+      CircusCharlie_Sprites_73: 94126564
+      CircusCharlie_Sprites_45: 1084560192
+      CircusCharlie_Sprites_69: 838917981
+      CircusCharlie_Sprites_56: -1334770988
+      CircusCharlie_Sprites_68: 1076211214
+      CircusCharlie_Sprites_14: -213837855
+      CircusCharlie_Sprites_79: 923254469
+      CircusCharlie_Sprites_26: 1154475587
+      CircusCharlie_Sprites_5: 265126417
+      CircusCharlie_Sprites_27: 1872442732
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
