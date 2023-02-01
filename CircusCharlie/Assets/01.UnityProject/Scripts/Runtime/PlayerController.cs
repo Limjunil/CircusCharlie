@@ -47,6 +47,7 @@ public class PlayerController : MonoBehaviour
         upMove = false;
         jumpChk = 0;
 
+
         moveVelocity = Vector3.zero;
 
         playerRigidbody = gameObject.GetComponentMust<Rigidbody2D>();
@@ -56,34 +57,51 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isGameOver == true) { return; }
+        
+        if (isGameOver == true) { return; }
 
         if(leftMove == true)
         {
             moveVelocity = new Vector3(-0.1f, 0f, 0f);
             transform.position += moveVelocity * moveForce * Time.deltaTime;
+
+            isRunning = true;
             animator.SetBool("Running", isRunning);
         }
+        
 
         if(rightMove == true)
         {
             moveVelocity = new Vector3(0.1f, 0f, 0f);
             transform.position += moveVelocity * moveForce * Time.deltaTime;
+            
+            isRunning = true;
             animator.SetBool("Running", isRunning);
 
         }
 
-        if(upMove == true)
+        if(leftMove == false && rightMove == false)
+        {
+            isRunning = false;
+            animator.SetBool("Running", isRunning);
+
+        }
+
+        if (upMove == true)
         {
             if(jumpChk == 0)
             {
                 playerRigidbody.velocity = Vector2.zero;
                 playerRigidbody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
 
+                isGround = true;
                 jumpChk++;
+                animator.SetBool("Ground", isGround);
+
+
             }
 
-            if(jumpChk == 1)
+            if (jumpChk == 1)
             {
                 return;
             }
@@ -110,7 +128,8 @@ public class PlayerController : MonoBehaviour
         if(collision.collider.CompareTag("Ground"))
         {
             jumpChk = 0;
-            GFunc.Log("ssss");
+            isGround = false;
+            animator.SetBool("Ground", isGround);
         }
     }
 

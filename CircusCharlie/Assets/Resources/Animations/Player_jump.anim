@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Charlie_Stay
+  m_Name: Player_jump
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,22 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: -1796246151, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+    - time: 0.5
+      value: {fileID: 1631678321, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
     attribute: m_Sprite
     path: 
     classID: 114
     script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_SampleRate: 1
+  - curve:
+    - time: 0
+      value: {fileID: 1971351011, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+    - time: 0.5
+      value: {fileID: 1971351011, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+    attribute: m_Sprite
+    path: LionImage
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_SampleRate: 2
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -39,8 +50,18 @@ AnimationClip:
       typeID: 114
       customType: 0
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 2631258445
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: -1796246151, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+    - {fileID: 1631678321, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+    - {fileID: 1971351011, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+    - {fileID: 1971351011, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
