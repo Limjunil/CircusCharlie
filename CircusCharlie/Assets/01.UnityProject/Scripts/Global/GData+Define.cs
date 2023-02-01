@@ -10,6 +10,11 @@ public static partial class GData
 
     public const string OBJ_NAME_CURRENT_LEVEL = "Level_1";
 
+    public const string GAME_OBJS = "GameObjs";
+
+    public const string MAIN_OBJS = "MainObjs";
+
+    public const string PLAYER_OBJS = "Player";
 
 }
 

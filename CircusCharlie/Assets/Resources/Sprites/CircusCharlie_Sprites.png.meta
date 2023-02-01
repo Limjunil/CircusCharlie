@@ -617,7 +617,7 @@ TextureImporter:
         serializedVersion: 2
         x: 556
         y: 1080
-        width: 61
+        width: 60
         height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -636,9 +636,9 @@ TextureImporter:
       name: CircusCharlie_Sprites_30
       rect:
         serializedVersion: 2
-        x: 648
+        x: 656
         y: 1080
-        width: 68
+        width: 60
         height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -805,9 +805,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 656
-        y: 992
+        y: 996
         width: 132
-        height: 68
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -26,13 +26,14 @@ SpriteAtlas:
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
-      enableRotation: 1
-      enableTightPacking: 1
+      enableRotation: 0
+      enableTightPacking: 0
       enableAlphaDilation: 0
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: c0ca6020e533fc145bb7671cf416037c, type: 3}
+    - {fileID: 102900000, guid: e768493ddca804421b25bd6727f9c844, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -112,8 +113,70 @@ SpriteAtlas:
   - {fileID: 110789755, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
   - {fileID: -34419411, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
   - {fileID: 1300955112, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: 21300004, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300108, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300106, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300112, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300110, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300028, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300116, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300030, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300114, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300032, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300120, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300034, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300118, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300020, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300022, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300122, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300024, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300026, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300036, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300038, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300102, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300104, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300086, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300088, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300058, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300090, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300064, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300056, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300092, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300076, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300066, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300094, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300074, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300060, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300096, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300062, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300050, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300098, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300072, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300048, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300100, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300084, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300054, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300082, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300068, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300052, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300080, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300070, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300042, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300078, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300040, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300046, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300044, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300018, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300016, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300010, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300008, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300014, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300012, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300002, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300000, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  - {fileID: 21300006, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
   - {fileID: 21300000, guid: 5bd125982ec8eb24cb826bc9398d98e8, type: 3}
-  - {fileID: 21300000, guid: ae47a6c87177e354db07d6607125dab2, type: 3}
+  - {fileID: -155210344, guid: ae47a6c87177e354db07d6607125dab2, type: 3}
   - {fileID: 21300000, guid: 64e0fab98833a0449a10853a4d1ebb1d, type: 3}
   - {fileID: 21300000, guid: c10f7f9a61cd956498ea01262e15abc8, type: 3}
   m_PackedSpriteNamesToIndex:
@@ -191,8 +254,70 @@ SpriteAtlas:
   - CircusCharlie_Sprites_72
   - CircusCharlie_Sprites_71
   - CircusCharlie_Sprites_70
+  - GUI_2
+  - GUI_61
+  - GUI_60
+  - GUI_63
+  - GUI_62
+  - GUI_14
+  - GUI_65
+  - GUI_15
+  - GUI_64
+  - GUI_16
+  - GUI_67
+  - GUI_17
+  - GUI_66
+  - GUI_10
+  - GUI_11
+  - GUI_68
+  - GUI_12
+  - GUI_13
+  - GUI_18
+  - GUI_19
+  - GUI_58
+  - GUI_59
+  - GUI_48
+  - GUI_51
+  - GUI_29
+  - GUI_52
+  - GUI_32
+  - GUI_28
+  - GUI_53
+  - GUI_43
+  - GUI_33
+  - GUI_54
+  - GUI_42
+  - GUI_30
+  - GUI_55
+  - GUI_31
+  - GUI_25
+  - GUI_56
+  - GUI_36
+  - GUI_24
+  - GUI_57
+  - GUI_47
+  - GUI_27
+  - GUI_46
+  - GUI_34
+  - GUI_26
+  - GUI_45
+  - GUI_35
+  - GUI_21
+  - GUI_44
+  - GUI_20
+  - GUI_23
+  - GUI_22
+  - GUI_9
+  - GUI_8
+  - GUI_5
+  - GUI_4
+  - GUI_7
+  - GUI_6
+  - GUI_1
+  - GUI_0
+  - GUI_3
   - CircusCharlie_meter
-  - CircusCharlie_Title
+  - CircusCharlie_Title_0
   - CircusCharlie_Bg
   - CircusCharlie_TitleLogo
   m_RenderDataMap: {}
