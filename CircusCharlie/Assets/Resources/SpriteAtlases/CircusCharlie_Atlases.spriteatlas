@@ -82,6 +82,8 @@ SpriteAtlas:
   - {fileID: -1610375013, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
   - {fileID: -800802748, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
   - {fileID: 960226013, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -30747709, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
+  - {fileID: -213837855, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
   - {fileID: 373489129, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
   - {fileID: -1662583117, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
   - {fileID: -1531626266, guid: c0a14d117c98873439d96cd54da7fa6d, type: 3}
@@ -223,6 +225,8 @@ SpriteAtlas:
   - CircusCharlie_Sprites_8
   - CircusCharlie_Sprites_12
   - CircusCharlie_Sprites_9
+  - CircusCharlie_Sprites_15
+  - CircusCharlie_Sprites_14
   - CircusCharlie_Sprites_17
   - CircusCharlie_Sprites_42
   - CircusCharlie_Sprites_43

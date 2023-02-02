@@ -11,7 +11,6 @@ public class Ring_Move : MonoBehaviour
 
     private Rigidbody2D ringRigidbody;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +25,11 @@ public class Ring_Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         moveVelocy = new Vector3(-0.1f, 0f, 0f);
 
         transform.position += moveVelocy * moveForce * Time.deltaTime;
+
     }
 
     //! 화면 밖으로 가면 꺼지게 하는 함수

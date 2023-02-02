@@ -1268,7 +1268,7 @@ TextureImporter:
         serializedVersion: 2
         x: 544
         y: 508
-        width: 96
+        width: 48
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1289,7 +1289,7 @@ TextureImporter:
         serializedVersion: 2
         x: 660
         y: 508
-        width: 96
+        width: 48
         height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1678,6 +1678,48 @@ TextureImporter:
       bones: []
       spriteID: 8204cf2a7b66a46479df6ec9199c6241
       internalID: 923254469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 508
+        width: 48
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b02bde280ad5284b9d354ba17771c9d
+      internalID: -213837855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircusCharlie_Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 508
+        width: 48
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9f5e6bafdb4324d83d6a2bfcb5ba67
+      internalID: -30747709
       vertices: []
       indices: 
       edges: []

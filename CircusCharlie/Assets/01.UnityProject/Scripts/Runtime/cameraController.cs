@@ -10,7 +10,7 @@ public class cameraController : MonoBehaviour
 
     void Update()
     {
-        cameraPosX = Mathf.Clamp(playerRect.anchoredPosition.x - 200, 0, 4800);
+        cameraPosX = Mathf.Clamp(playerRect.anchoredPosition.x - 200, 0, 11472);
         gameObject.GetComponentMust<RectTransform>().anchoredPosition = 
             new Vector2(cameraPosX, 0);
     }

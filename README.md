@@ -6,3 +6,4 @@ Make a CircusCharlie
 2023-02-01 / v0.0.3 / Add Charlie move and Animation    
 2023-02-01 / v0.0.4 / Add bgImage Copy    
 2023-02-02 / v0.0.4 / Add Moving camera and setting Ui    
+2023-02-02 / v0.0.5 / Add sprites Ring half    

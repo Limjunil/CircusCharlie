@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Experimental.GlobalIllumination;
@@ -26,6 +27,8 @@ public class PlayerController : MonoBehaviour
     public bool leftMove = false;
     public bool rightMove = false;
     public bool upMove = false;
+    public bool isHit = false;
+    public bool isWin = false;
 
     private int jumpChk = default;
 
@@ -34,10 +37,13 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D playerRigidbody;
     private Animator animator;
 
+    public GameManager gameManager;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        jumpForce = 14f;
+        jumpForce = 13f;
         moveForce = 50f;
         isGround = false;
         isRunning = false;
@@ -45,6 +51,8 @@ public class PlayerController : MonoBehaviour
         leftMove = false;
         rightMove = false;
         upMove = false;
+        isHit = false;
+        isWin = false;
         jumpChk = 0;
 
 
@@ -52,6 +60,7 @@ public class PlayerController : MonoBehaviour
 
         playerRigidbody = gameObject.GetComponentMust<Rigidbody2D>();
         animator = gameObject.GetComponentMust<Animator>();
+        gameManager = gameManager.GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -59,6 +68,8 @@ public class PlayerController : MonoBehaviour
     {
         
         if (isGameOver == true) { return; }
+
+        if (isHit == true) { return; }
 
         if(leftMove == true)
         {
@@ -114,17 +125,42 @@ public class PlayerController : MonoBehaviour
     //! 피격되었을 때 발동하는 함수
     private void Hit()
     {
+        isHit = false;
+
+        RectTransform playerPos = GetComponent<RectTransform>();
+        playerPos.anchoredPosition = new Vector3(200f, 400f, 0f);
+
+        animator.SetTrigger("StartNow");
     }   // Hit()
 
-    //! 피격이 3번 되었을 때 게임을 끝내는 함수
-    private void GameOverNow()
+
+
+    //! 불에 맞으면 발동
+    public void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.tag == "RingFire")
+        {
+            if (isHit == true) { return; }
 
-    }   // GameOverNow()
+            animator.SetTrigger("Hit");
+            isHit = true;
+            gameManager.isHpDown = true;
 
+
+            Invoke("Hit", 2f);
+        }
+
+
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.collider.CompareTag("Win"))
+        {
+            isWin = true;
+            animator.SetBool("Win", isWin);
+        }
+
         if(collision.collider.CompareTag("Ground"))
         {
             jumpChk = 0;
@@ -133,16 +169,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    //! 불에 맞으면 발동
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.tag == "RingFire")
-        {
-            animator.SetTrigger("Hit");
-        }
-
-        
-    }
 
 
 }
