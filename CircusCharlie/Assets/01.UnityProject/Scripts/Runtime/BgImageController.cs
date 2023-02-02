@@ -23,7 +23,7 @@ public class BgImageController : MonoBehaviour
 
         bgImageCount = 5;
 
-        bgImagePosition = new Vector3(-3000f, 0f, 0f);
+        bgImagePosition = new Vector3(-2000f, 0f, 0f);
 
         
         bgImage = new GameObject[bgImageCount];
@@ -35,7 +35,7 @@ public class BgImageController : MonoBehaviour
 
         }
 
-        Vector3 bgImageLocalPos = new Vector3(-2400f, -200f, 0f);
+        Vector3 bgImageLocalPos = new Vector3(-40f, -200f, 0f);
 
         for (int i = 0; i < bgImageCount; i++)
         {

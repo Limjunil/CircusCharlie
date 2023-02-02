@@ -133,5 +133,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    //! 불에 맞으면 발동
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "RingFire")
+        {
+
+        }
+    }
+
 
 }
