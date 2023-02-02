@@ -60,7 +60,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(isGameOver == true)
+        {
+            
+        }
     }
 
     // 점수를 획득하는 함수

@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        jumpForce = 15f;
+        jumpForce = 14f;
         moveForce = 50f;
         isGround = false;
         isRunning = false;
@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        if (upMove == true)
+        if (upMove == true || Input.GetKeyDown(KeyCode.Q))
         {
             if(jumpChk == 0)
             {
@@ -138,8 +138,10 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.tag == "RingFire")
         {
-
+            animator.SetTrigger("Hit");
         }
+
+        
     }
 
 
