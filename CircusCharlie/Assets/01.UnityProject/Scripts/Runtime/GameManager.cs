@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,6 +24,8 @@ public class GameManager : MonoBehaviour
 
     // 현재 보너스 점수를 표시할 텍스트
     private GameObject ScoreBonusTxtObj = default;
+
+    GameObject gameClearTxtObj = default;
 
     // 현재 스테이지 값
     private float stageCnt = default;
@@ -56,6 +59,7 @@ public class GameManager : MonoBehaviour
         isGameOver = false;
         isHpDown = false;
         isWinStage = false;
+        gameClearTxtObj = default;
         Time.timeScale = 1f;
 
         // { 출력할 텍스트 오브젝트를 찾는다.
@@ -70,16 +74,44 @@ public class GameManager : MonoBehaviour
         StageNowTxtObj = scoreColor3.FindChildObj("StageNow");
         ScoreBonusTxtObj = scoreColor3.FindChildObj("ScoreBonus");
 
+        if(SceneManager.GetActiveScene().name == GData.SCENE_NAME_PLAY2)
+        {
+            gameClearTxtObj = uiObjs_.FindChildObj("GameClear");
+            gameClearTxtObj.transform.localScale = new Vector3(0.0001f, 0.0001f, 0.0001f);
+
+        }
+
         // } 출력할 텍스트 오브젝트를 찾는다.
 
         gameOverTxtObj.transform.localScale = new Vector3(0.0001f, 0.0001f, 0.0001f);
-        SetScoreNowTxt();
+        
+        if(SceneManager.GetActiveScene().name == GData.SCENE_NAME_PLAY2)
+        {
+            score = PlayerPrefs.GetFloat("OneStageNowVal");
+            
+            SetScoreNowTxt();
+        }
+        else
+        {
+            SetScoreNowTxt();
+        }
 
         SetHpCntTxt();
 
-        SetStageNowTxt();
+        if(SceneManager.GetActiveScene().name == GData.SCENE_NAME_LOAD2 ||
+           SceneManager.GetActiveScene().name == GData.SCENE_NAME_PLAY2 )
+        {
+            PlusStageNow();
+        }
+        else
+        {
+            SetStageNowTxt();
+        }
 
         SetScoreBonusTxt();
+
+        // 최고 점수 초기화
+        //PlayerPrefs.SetFloat("bestScore", 0);
 
         SetBestScoreTxt();
     }
@@ -90,8 +122,28 @@ public class GameManager : MonoBehaviour
         if(isGameOver == true)
         {
             UpdateBestScore();
+
+            PlayerPrefs.SetFloat("OneStageNowVal", 0);
             gameOverTxtObj.transform.localScale = Vector3.one;
             Time.timeScale = 0f;
+        }
+
+        if(isWinStage == true)
+        {
+            UpdateBestScore();
+
+            if (SceneManager.GetActiveScene().name == GData.SCENE_NAME_PLAY2)
+            {
+                PlayerPrefs.SetFloat("OneStageNowVal", 0);
+
+                Invoke("OnEnd", 2f);
+
+            }
+            else
+            {
+                                
+                Invoke("OnStageNext", 2f);
+            }
         }
 
         if(isHpDown == true)
@@ -167,7 +219,7 @@ public class GameManager : MonoBehaviour
     // 스테이지 클리어 시, 다음 스테이지 표시하는 함수
     public void PlusStageNow()
     {
-        stageCnt++;
+        stageCnt += 1f;
         SetStageNowTxt();
     }
 
@@ -175,11 +227,12 @@ public class GameManager : MonoBehaviour
     {
         PlayerPrefs.SetFloat("StageNow", stageCnt);
 
-        float stageNow = PlayerPrefs.GetFloat("StageNow");
+        float StageNowVal = PlayerPrefs.GetFloat("StageNow");
 
-        GFunc.SetTmpText(StageNowTxtObj, $"stage-0{stageNow}");
+        GFunc.SetTmpText(StageNowTxtObj, $"stage-0{StageNowVal}");
             
     }
+
 
     // 보너스 점수를 표시할 함수
 
@@ -204,6 +257,9 @@ public class GameManager : MonoBehaviour
         float bestScoreNow = PlayerPrefs.GetFloat("bestScore");
         float scoreVal = PlayerPrefs.GetFloat("ScoreNow");
 
+        //! 만약 다음 스테이지를 가게 되면 가져갈 전 스테이지 값
+        PlayerPrefs.SetFloat("OneStageNowVal", bonusScore + scoreVal);
+
         if (isWinStage == true)
         {
             // 보너스 점수 가산
@@ -225,5 +281,20 @@ public class GameManager : MonoBehaviour
     {
         float bestScoreNow = PlayerPrefs.GetFloat("bestScore");
         GFunc.SetTmpText(ScoreHighTxtObj, $"HI - {bestScoreNow}");
+    }
+
+
+    //! 다음 스테이지 로딩창 불러오기
+    public void OnStageNext()
+    {
+        GFunc.LoadScene(GData.SCENE_NAME_LOAD2);
+    }
+
+
+    //! 게임 클리어 함수
+    public void OnEnd()
+    {
+        gameClearTxtObj.transform.localScale = Vector3.one;
+        Time.timeScale = 0f;
     }
 }

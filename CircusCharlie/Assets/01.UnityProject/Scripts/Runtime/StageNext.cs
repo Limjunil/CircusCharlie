@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StageNext : MonoBehaviour
 {
@@ -19,6 +20,13 @@ public class StageNext : MonoBehaviour
     // 다음 스테이지로 넘어가는 함수
     public void OnStageNext()
     {
-        GFunc.LoadScene(GData.SCENE_NAME_PLAY);
+        if (SceneManager.GetActiveScene().name == GData.SCENE_NAME_LOAD2)
+        {
+            GFunc.LoadScene(GData.SCENE_NAME_PLAY2);
+        }
+        else
+        {
+            GFunc.LoadScene(GData.SCENE_NAME_PLAY);
+        }
     }
 }

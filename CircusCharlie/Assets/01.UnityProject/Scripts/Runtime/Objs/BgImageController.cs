@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 using UnityEngine.WSA;
 
@@ -62,6 +63,11 @@ public class BgImageController : MonoBehaviour
             bgImagePosition, Quaternion.identity, gameObject.transform);
 
         Vector3 bgImageLocalPos = new Vector3(-40f, -200f, 0f);
+
+        if(SceneManager.GetActiveScene().name == GData.SCENE_NAME_PLAY2)
+        {
+            bgImageLocalPos = new Vector3(-40f, -400f, 0f);
+        }
 
         for (int i = 0; i < bgImageCount-1; i++)
         {

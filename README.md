@@ -8,3 +8,4 @@ Make a CircusCharlie
 2023-02-02 / v0.0.4 / Add Moving camera and setting Ui    
 2023-02-02 / v0.0.5 / Add sprites Ring half    
 2023-02-03 / v0.0.6 / Add Score    
+2023-02-03 / v0.1.0 / Make a CircusCharlie game prototype    

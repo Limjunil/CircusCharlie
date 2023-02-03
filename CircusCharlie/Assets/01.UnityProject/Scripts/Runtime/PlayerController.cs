@@ -10,7 +10,12 @@ public class PlayerController : MonoBehaviour
 {
 
     // 플레이어가 피격시 나올 소리
-    // public AudioClip
+    public AudioClip hitSound;
+    public AudioClip jumpSound;
+
+    private AudioSource playerHit = default;
+    private AudioSource playerjump = default;
+
 
     // 플레이어의 점프 힘
     public float jumpForce = default;
@@ -72,7 +77,10 @@ public class PlayerController : MonoBehaviour
         playerRigidbody = gameObject.GetComponentMust<Rigidbody2D>();
         animator = gameObject.GetComponentMust<Animator>();
         gameManager = gameManager.GetComponent<GameManager>();
+        playerHit = gameObject.GetComponent<AudioSource>();
+        playerjump = gameObject.GetComponent<AudioSource>();
 
+        
     }
 
     // Update is called once per frame
@@ -82,6 +90,7 @@ public class PlayerController : MonoBehaviour
         if (isGameOver == true) { return; }
 
         if (isHit == true) { return; }
+        if (isWin == true) { return; }
 
         if(leftMove == true)
         {
@@ -119,6 +128,9 @@ public class PlayerController : MonoBehaviour
 
                 isGround = true;
                 jumpChk++;
+
+                playerjump.clip = jumpSound;
+                playerjump.Play();
                 animator.SetBool("Ground", isGround);
 
 
@@ -181,10 +193,13 @@ public class PlayerController : MonoBehaviour
             isHit = true;
             gameManager.isHpDown = true;
 
+            playerHit.clip = hitSound;
+            playerHit.Play();
+
             Invoke("Hit", 1f);
         }
 
-        
+
 
 
     }
@@ -195,6 +210,7 @@ public class PlayerController : MonoBehaviour
         {
             isWin = true;
             animator.SetBool("Win", isWin);
+            gameManager.isWinStage = true;
         }
 
         if(collision.collider.CompareTag("Ground"))

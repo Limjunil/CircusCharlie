@@ -11,6 +11,8 @@ TagManager:
   - Win
   - ChkRing
   - ChkBott
+  - Money
+  - Jump
   layers:
   - Default
   - TransparentFX
