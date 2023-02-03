@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
+using Unity.Burst.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Experimental.GlobalIllumination;
@@ -29,6 +30,14 @@ public class PlayerController : MonoBehaviour
     public bool upMove = false;
     public bool isHit = false;
     public bool isWin = false;
+    public bool isNowRestart = false;
+
+    // fire 링을 넘어가면 확인
+    private bool ChkFireRing = false;
+
+    // fire 병을 넘어가면 확인
+    private bool ChkFireBott = false;
+
 
     private int jumpChk = default;
 
@@ -54,13 +63,16 @@ public class PlayerController : MonoBehaviour
         isHit = false;
         isWin = false;
         jumpChk = 0;
-
+        isNowRestart = false;
+        ChkFireRing = false;
+        ChkFireBott = false;
 
         moveVelocity = Vector3.zero;
 
         playerRigidbody = gameObject.GetComponentMust<Rigidbody2D>();
         animator = gameObject.GetComponentMust<Animator>();
         gameManager = gameManager.GetComponent<GameManager>();
+
     }
 
     // Update is called once per frame
@@ -130,7 +142,11 @@ public class PlayerController : MonoBehaviour
         RectTransform playerPos = GetComponent<RectTransform>();
         playerPos.anchoredPosition = new Vector3(200f, 400f, 0f);
 
+
         animator.SetTrigger("StartNow");
+
+        Invoke("ReDamage", 2f);
+
     }   // Hit()
 
 
@@ -138,17 +154,37 @@ public class PlayerController : MonoBehaviour
     //! 불에 맞으면 발동
     public void OnTriggerEnter2D(Collider2D collision)
     {
+        if(collision.tag == "ChkRing")
+        {
+            ChkFireRing = true;
+
+        }
+
+        if(collision.tag == "ChkBott")
+        {
+            ChkFireBott = true;
+        }
+
+        if(collision.tag == "Money")
+        {
+            gameManager.GetScoreMoney();
+        }
+
         if (collision.tag == "RingFire")
         {
-            if (isHit == true) { return; }
+            if (isHit == true || isNowRestart == true) { return; }
 
+            isNowRestart = true;
+            ChkFireRing = false;
+            ChkFireBott = false;
             animator.SetTrigger("Hit");
             isHit = true;
             gameManager.isHpDown = true;
 
-
-            Invoke("Hit", 2f);
+            Invoke("Hit", 1f);
         }
+
+        
 
 
     }
@@ -163,12 +199,30 @@ public class PlayerController : MonoBehaviour
 
         if(collision.collider.CompareTag("Ground"))
         {
+            if(ChkFireRing == true)
+            {
+                gameManager.GetScoreFire();
+                ChkFireRing = false;
+            }
+
+            if(ChkFireBott == true)
+            {
+                gameManager.GetScoreBott();
+                ChkFireBott = false;
+            }
+
             jumpChk = 0;
             isGround = false;
             animator.SetBool("Ground", isGround);
         }
     }
 
+    // 시간이 지나고 다시 피격처리
+    public void ReDamage()
+    {
+        isNowRestart = false;
+
+    }
 
 
 }

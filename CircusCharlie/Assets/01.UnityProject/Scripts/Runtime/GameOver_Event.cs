@@ -23,6 +23,7 @@ public class GameOver_Event : MonoBehaviour
     // 화면 터치를 하면 발생
     public void OnTabScreen()
     {
-        GFunc.LoadScene( GData.SCENE_NAME_TITLE);
+        GFunc.LoadScene(GData.SCENE_NAME_TITLE);
+        
     }
 }

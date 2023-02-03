@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Btn_Play : MonoBehaviour
+public class MoneyController : MonoBehaviour
 {
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +18,14 @@ public class Btn_Play : MonoBehaviour
         
     }
 
-    //! 플레이 버튼을 눌렀을 때 플레이 씬으로 넘어간다
-    public void OnPlayerButton()
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        GFunc.LoadScene(GData.SCENE_NAME_LOAD);
-    }   // OnPlayerButton()
+        if (collision.tag == "Player")
+        {
+            gameObject.SetActive(false);
+        }
+    }
+
+
+
 }

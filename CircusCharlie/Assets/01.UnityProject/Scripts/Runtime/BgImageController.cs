@@ -12,10 +12,12 @@ public class BgImageController : MonoBehaviour
 
     public GameObject bgImagePrefab;
     public GameObject bgImageLastPrefab;
+    public GameObject bgImageMoneyPrefab;
 
 
     // 생성할 배경화면 배열
     private GameObject[] bgImage = default;
+    private GameObject[] bgImageMoney = default;
     private int bgImageCount = default;
 
     private Vector3 bgImagePosition = default;
@@ -34,6 +36,7 @@ public class BgImageController : MonoBehaviour
         meterVal = 90;
 
         bgImage = new GameObject[bgImageCount];
+        bgImageMoney = new GameObject[bgImageCount];
 
         for (int i = 0; i < bgImageCount-1; i++)
         {
@@ -47,6 +50,12 @@ public class BgImageController : MonoBehaviour
             GFunc.SetTmpText(meterTxtObj, $"{meterVal}");
 
             meterVal -= 10;
+
+            if(i % 2 == 0 && i != 0)
+            {
+                bgImageMoney[i] = Instantiate(bgImageMoneyPrefab, bgImagePosition,
+                    Quaternion.identity, gameObject.transform);
+            }
         }
 
         bgImage[bgImageCount - 1] = Instantiate(bgImageLastPrefab,
@@ -57,6 +66,11 @@ public class BgImageController : MonoBehaviour
         for (int i = 0; i < bgImageCount-1; i++)
         {
             bgImage[i].transform.localPosition = bgImageLocalPos;
+
+            if (i % 2 == 0 && i != 0)
+            {
+                bgImageMoney[i].transform.localPosition = bgImageLocalPos;
+            }
 
             bgImageLocalPos.x += 1279f;
         }

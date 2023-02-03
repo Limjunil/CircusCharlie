@@ -21,12 +21,18 @@ public class GameManager : MonoBehaviour
     // 현재 스테이지를 표시할 텍스트
     private GameObject StageNowTxtObj = default;
 
+    // 현재 보너스 점수를 표시할 텍스트
+    private GameObject ScoreBonusTxtObj = default;
+
     // 현재 스테이지 값
     private float stageCnt = default;
 
+    // 현재 보너스 초기 값
+    private float bonusScore = default;
 
     // 점수 값
     private float score = default;
+
 
     // 체력
     private float hpCnt = default;
@@ -34,7 +40,8 @@ public class GameManager : MonoBehaviour
     // 게임 오버 상태 확인
     private bool isGameOver = false;
 
-
+    // 스테이지를 깼는지 확인
+    public bool isWinStage = false;
 
     // 체력을 깎아야하는지 확인하는 bool
     public bool isHpDown = false;
@@ -45,8 +52,11 @@ public class GameManager : MonoBehaviour
         score = 0f;
         stageCnt = 1f;
         hpCnt = 3f;
+        bonusScore = 5000f;
         isGameOver = false;
         isHpDown = false;
+        isWinStage = false;
+        Time.timeScale = 1f;
 
         // { 출력할 텍스트 오브젝트를 찾는다.
         GameObject uiObjs_ = GFunc.GetRootObj("UiObjs");
@@ -58,17 +68,32 @@ public class GameManager : MonoBehaviour
         ScoreHighTxtObj = scoreColor3.FindChildObj("ScoreHigh");
         HpNowTxtObj = scoreColor3.FindChildObj("HpNow");
         StageNowTxtObj = scoreColor3.FindChildObj("StageNow");
+        ScoreBonusTxtObj = scoreColor3.FindChildObj("ScoreBonus");
+
         // } 출력할 텍스트 오브젝트를 찾는다.
 
         gameOverTxtObj.transform.localScale = new Vector3(0.0001f, 0.0001f, 0.0001f);
         SetScoreNowTxt();
 
         SetHpCntTxt();
+
+        SetStageNowTxt();
+
+        SetScoreBonusTxt();
+
+        SetBestScoreTxt();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(isGameOver == true)
+        {
+            UpdateBestScore();
+            gameOverTxtObj.transform.localScale = Vector3.one;
+            Time.timeScale = 0f;
+        }
+
         if(isHpDown == true)
         {
             MinusHpCnt();
@@ -78,12 +103,32 @@ public class GameManager : MonoBehaviour
 
         SetScoreNowTxt();
 
+        Invoke("MinusBonus", 2f);
+
+        
+
     }
 
-    // 점수를 획득하는 함수
-    public void GetScore()
+    // 점수를 획득하는 함수 : Fire 링
+    public void GetScoreFire()
     {
         score += 100;
+
+        SetScoreNowTxt();
+    }
+
+    // 점수를 획득하는 함수 : Fire 병
+    public void GetScoreBott()
+    {
+        score += 200;
+
+        SetScoreNowTxt();
+    }
+
+    // 점수를 획득하는 함수 : Money
+    public void GetScoreMoney()
+    {
+        score += 1000;
 
         SetScoreNowTxt();
     }
@@ -100,7 +145,7 @@ public class GameManager : MonoBehaviour
     // 피격 시 hp를 줄이는 함수
     public void MinusHpCnt()
     {
-        hpCnt -= 1;
+        hpCnt--;
         SetHpCntTxt();
     }
 
@@ -112,5 +157,73 @@ public class GameManager : MonoBehaviour
 
         GFunc.SetTmpText(HpNowTxtObj, $"Hp : {HpVal}");
 
+        if(hpCnt == 0)
+        {
+            isGameOver = true;
+        }
+
+    }
+
+    // 스테이지 클리어 시, 다음 스테이지 표시하는 함수
+    public void PlusStageNow()
+    {
+        stageCnt++;
+        SetStageNowTxt();
+    }
+
+    public void SetStageNowTxt()
+    {
+        PlayerPrefs.SetFloat("StageNow", stageCnt);
+
+        float stageNow = PlayerPrefs.GetFloat("StageNow");
+
+        GFunc.SetTmpText(StageNowTxtObj, $"stage-0{stageNow}");
+            
+    }
+
+    // 보너스 점수를 표시할 함수
+
+    private void MinusBonus()
+    {
+        CancelInvoke();
+        if(bonusScore == 0) { return; }
+
+        bonusScore -= 10;
+        SetScoreBonusTxt();
+    }
+
+    public void SetScoreBonusTxt()
+    {
+        GFunc.SetTmpText(ScoreBonusTxtObj, $"Bonus - {bonusScore}");
+    }
+
+
+    // 최고 점수를 표시하는 함수
+    public void UpdateBestScore()
+    {
+        float bestScoreNow = PlayerPrefs.GetFloat("bestScore");
+        float scoreVal = PlayerPrefs.GetFloat("ScoreNow");
+
+        if (isWinStage == true)
+        {
+            // 보너스 점수 가산
+            scoreVal += bonusScore; 
+        }
+
+        if (bestScoreNow < scoreVal)
+        {
+            bestScoreNow = scoreVal;
+
+            PlayerPrefs.SetFloat("bestScore", bestScoreNow);
+        }
+
+        SetBestScoreTxt();
+    }
+
+
+    public void SetBestScoreTxt()
+    {
+        float bestScoreNow = PlayerPrefs.GetFloat("bestScore");
+        GFunc.SetTmpText(ScoreHighTxtObj, $"HI - {bestScoreNow}");
     }
 }
