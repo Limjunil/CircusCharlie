@@ -23,12 +23,12 @@ public static partial class GFunc
             else
             {
                 searchResult = FindChildObj(searchTarget, objName_);
+
+                // 방어로직
+                if (searchResult == null || searchResult == default) { /* Pass */ }
+                else { return searchResult; }
             }
         }       // loop
-
-        // 방어로직
-        if(searchResult == null || searchResult == default) { /* Pass */ }
-        else { return searchResult; }
 
         return searchResult;
     }       // FindChildObj()
